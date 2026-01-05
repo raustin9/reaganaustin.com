@@ -8,10 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import ExperienceItem from '~/components/experience/ExperienceItem.vue';
 import MyExperience from '~/components/experience/MyExperience.vue';
-import SeeMoreButton from '~/components/home/SeeMoreButton.vue';
-import MyProjects from '~/components/projects/MyProjects.vue';
 
 </script>
 

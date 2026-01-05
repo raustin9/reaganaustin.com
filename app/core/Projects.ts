@@ -95,7 +95,7 @@ export const ExpoTag: ProjectTag = {
 export const CSharpTag: ProjectTag = {
     name: 'C#',
     color: '#9179E4',
-    iconUrl: 'images/C#.webp'
+    iconUrl: 'images/CSharp.webp'
 }
 
 export const AzureDevOpsTag: ProjectTag = {
