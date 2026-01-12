@@ -82,8 +82,8 @@
             name: 'Clayton Homes',
             role: 'Cybersecurity Intern',
             description: `Built custom integrations between tools via intermediate server (golang) that handled connections. Any service that used webhooks or had API could be integrated easily.`,
-            startDate: new Date('2024-08-02'),
-            endDate: new Date('2024-12-02'),
+            startDate: new Date('2024-05-02'),
+            endDate: new Date('2024-08-02'),
             logoUrl: '/images/Clayton.png',
             location: 'Knoxville, TN (Hybrid)',
             tags: [

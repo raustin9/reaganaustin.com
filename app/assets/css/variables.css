@@ -31,17 +31,20 @@
     --font-xs: 0.8rem;
     --font-sm: 1.1rem;
     --font-md: 1.25rem;
+    --font-lg: 1.75rem;
+    --font-xl: 1.85rem;
 
     --font-family-primary: Helvetica;
     --font-weight-normal: lighter;
     
     --background-primary: #1C1C1C;
     --background-secondary: #525252;
-    --background-secondary: #525252;
 
     --shadow-primary: #000000;
 
     --background-sidebar-primary: #333333;
+
+    --background-code-primary: #292929;
 
     --link-primary: var(--colors-blue-500);
 

@@ -37,7 +37,7 @@
                 <p style="width: 80%; text-align: center; color: var(--foreground-secondary);">Geometry of entire globe. To 1000-meter scale.</p>
             </div>
         </div>
-    </div>
+    </div> 
 </template>
 
 <script setup lang="ts">

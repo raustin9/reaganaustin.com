@@ -1,0 +1,51 @@
+/* This is used for the markdown files rendered with ContentRenderer */
+.prose {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    line-height: 25px;
+}
+
+.prose h1 {
+    max-width: 95%;
+    font-size: var(--font-xl);
+}
+
+.prose a {
+    color: var(--colors-green-500);
+    text-underline-offset: 2px;
+}
+
+.prose p {
+    max-width: 70%;
+    font-size: var(--font-sm);
+}
+
+.prose h2 > a {
+    text-decoration: none;
+}
+
+.prose p > code {
+    font-size: 14px;
+    border-radius: var(--border-radius-sm);
+    padding: 4px;
+    background-image: linear-gradient(to bottom right, var(--colors-gray-800), var(--colors-gray-900));
+}
+
+.prose pre {
+    background-image: linear-gradient(to bottom right, var(--colors-gray-800), var(--colors-gray-900));
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    overflow-x: auto;
+    max-width: 90%;
+}
+
+.prose code {
+    line-height: 20px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.75rem;
+}
+
+.prose li {
+    margin-left: 20px;
+}

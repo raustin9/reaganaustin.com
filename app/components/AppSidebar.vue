@@ -10,5 +10,6 @@ import Sidebar from './ui/Sidebar.vue';
         { path: '/about', name: 'about', icon: 'pi pi-user' },
         { path: '/experience', name: 'experience', icon: 'pi pi-clipboard' },
         { path: '/projects', name: 'projects', icon: 'pi pi-code' },
+        { path: '/blog', name: 'blog', icon: 'pi pi-pencil' },
     ]
 </script>

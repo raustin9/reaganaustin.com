@@ -16,6 +16,16 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tscondigPaths()]
   },
-  modules: ['@primevue/nuxt-module', '@nuxt/image'],
-  css: ['~/assets/css/variables.css', 'primeicons/primeicons.css']
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          langs: ['cpp'],
+          theme: 'github-dark'
+        }
+      }
+    }
+  },
+  modules: ['@primevue/nuxt-module', '@nuxt/image', '@nuxt/content'],
+  css: ['~/assets/css/variables.css', 'primeicons/primeicons.css', '~/assets/css/content.css'],
 })

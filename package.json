@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^3.10.0",
     "@nuxt/image": "^2.0.0",
     "@primevue/nuxt-module": "^4.5.4",
+    "better-sqlite3": "^12.6.0",
     "nuxt": "^4.2.2",
     "primeicons": "^7.0.0",
     "vue": "^3.5.26",
@@ -19,7 +21,7 @@
   },
   "devDependencies": {
     "typescript": "^5.9.3",
-    "vite-tsconfig-paths": "^6.0.3",
+    "vite-tsconfig-paths": "^6.0.4",
     "vue-tsc": "^3.2.1"
   }
 }
