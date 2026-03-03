@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
+  routeRules: {
+    '/home': { redirect: '/' }
+  },
   features: {
     inlineStyles: true
   },
