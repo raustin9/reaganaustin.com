@@ -38,6 +38,12 @@ export const RustTag: ProjectTag = {
     iconUrl: 'images/Rust.svg'
 }
 
+export const WGPUTag: ProjectTag = {
+    name: 'wgpu',
+    color: '#3242a8',
+    iconUrl: 'images/webgpu.svg'
+}
+
 export const PythonTag: ProjectTag = {
     name: 'Python',
     color: '#FFE873',

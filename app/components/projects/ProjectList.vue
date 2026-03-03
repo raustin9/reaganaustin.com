@@ -33,17 +33,15 @@
 
 <style lang="css" scoped>
     .vertical {
-        /* border: 1px solid green; */
         display: flex;
         gap: var(--spacing-sm);
         flex-direction: column;
     }
 
     .horizontal {
-        /* border: 1px solid red; */
         display: flex;
         gap: var(--spacing-md);
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: stretch;

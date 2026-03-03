@@ -3,12 +3,33 @@
 </template>
 
 <script lang="ts" setup>
-    import { CMakeTag, CppTag, JavascriptTag, OSPRayTag, PythonTag, RustTag, VulkanTag, WebGL2Tag, type Project } from '~/core/Projects';
+    import { CMakeTag, CppTag, JavascriptTag, OSPRayTag, PythonTag, RustTag, VulkanTag, WebGL2Tag, WGPUTag, type Project } from '~/core/Projects';
     import ProjectList from './ProjectList.vue'
     
     const myProjects: Project[] = [
         {
-            name: 'Experimental Compiler Toolchain (Viper)',
+            name: 'xgpu RHI',
+            description: 'An abstraction layer (rendering hardware interface) on top of graphics backends like Vulkan for cross-platform rendering.',
+            url: 'https://github.com/CurseSoftware/xgpu',
+            icon: 'pi-globe',
+            tags: [
+                CppTag,
+                VulkanTag,
+                CMakeTag
+            ]
+        },
+        {
+            name: 'Questionable Scene Renderer',
+            description: 'A deferred renderer for rendering material-based objects in scenes with dynamic lights.',
+            url: 'https://github.com/raustin9/Questionable-Scene-Renderer',
+            icon: 'pi-globe',
+            tags: [
+                RustTag,
+                WGPUTag
+            ]
+        },
+        {
+            name: 'Viper Compiler Toolchain',
             description: 'Working on techniques in compiler toolchain for expressing language attributes while maintaining runtime performance.',
             url: 'https://github.com/CurseSoftware/Viper',
             icon: 'pi-wrench',
@@ -18,8 +39,8 @@
             ]
         },
         {
-            name: 'Game Engine Modules',
-            description: 'Library of useful, independent (but compatible) modules for game engine or application development in C++. Tools like windowing, graphics, and mathematics.',
+            name: 'Blade Game Engine',
+            description: 'From-scratch library of useful, independent (but compatible) modules for game engine or application development in C++. Tools like windowing, graphics, and mathematics.',
             url: 'https://github.com/CurseSoftware/blade',
             icon: 'pi-box',
             tags: [

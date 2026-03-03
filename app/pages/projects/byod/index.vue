@@ -24,8 +24,12 @@
                     <p class="image-subtitle">High resolution (per address) data rendered onto buildings with lowwer resolution area data rendered behind it</p>
                 </div>
                 <div class="content-grid-item">
-                    <NuxtImg src="images/byod.png" class="image" />
-                    <p class="image-subtitle">High fidelity Smoky Mountain National Park terrain geometry rendered. To 10-meter scale. Pink coloration is species density data visualized.</p>
+                    <NuxtImg src="images/byod-2.png" class="image" />
+                    <p class="image-subtitle">Another example of survey data (zone) rendered on top of energy data (per building) for Knoxville TN.</p>
+                </div>
+                <div class="content-grid-item">
+                    <NuxtImg src="images/byod-3.png" class="image" />
+                    <p class="image-subtitle">Close up shot to show 3D meshses for individual buildings.</p>
                 </div>
             </div>
         </div>
@@ -84,7 +88,7 @@
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-md);
-        width: 40%;
+        width: 35%;
     }
     
     .content-container-grid {
@@ -94,7 +98,7 @@
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-md);
-        width: 58%;
+        width: 62%;
         /* border: 1px solid red; */
     }
 </style>

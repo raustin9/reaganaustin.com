@@ -16,8 +16,8 @@
     const MyExperiences: Experience[] = [
         {
             name: 'Reclaimwell',
-            role: 'Director of Engineering',
-            description: `Head development on our Mobile App and all other engineering efforts. Manage our enterprise's tools and all integrations.`,
+            role: 'Software Engineer',
+            description: `Lead development on our mobile app, API, and hardware engineering efforts. Manage our enterprise's tools and all integrations.`,
             startDate: new Date('2025-01-02'),
             endDate: undefined,
             logoUrl: '/images/Reclaimwell.png',
